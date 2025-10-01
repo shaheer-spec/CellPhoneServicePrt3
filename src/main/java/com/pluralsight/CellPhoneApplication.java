@@ -64,8 +64,9 @@ public class CellPhoneApplication {
         display(phone2);
         display(phone3);
 
-        phone1.dial( phone2.getPhoneNumber());
-        phone2.dial( phone1.getPhoneNumber());
+        phone1.dial(phone2.getPhoneNumber());
+        phone2.dial(phone1.getPhoneNumber());
+        phone3.dial(phone2);
 
     }
 
